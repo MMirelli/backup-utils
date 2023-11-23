@@ -1,0 +1,5 @@
+#!/bin/bash -x
+BACKUP_DESTINATION=${1:-HOME}
+
+rm -rf "${BACKUP_DESTINATION}"
+tree "${BACKUP_DESTINATION}"
